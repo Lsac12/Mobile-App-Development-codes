@@ -1,0 +1,17 @@
+<view class='container'>
+    <!--关卡提示-->
+    <view class="title">第{{level}}关</view>
+    <!--游戏画布-->
+    <canvas canvas-id='myCanvas'></canvas >
+    <!--方向键-->
+    <view class='btnBox'>
+        <button type='warn'>4</button>
+        <view>
+            <button type ='warn'>--</button >
+            <button type='warn'>y</button >
+            <button type='warn'>→</button >
+        </view >
+    </view>
+    <!--"重新开始"按钮-->
+    <button type='warn'>重新开始</button >
+</view>
